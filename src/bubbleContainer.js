@@ -9,12 +9,12 @@ export default class BubbleContainer extends React.Component {
   render() {
     let rows = [];
 
-    for (let i = 0; i < 100; i++) {
-      rows.push(<Bubble/>)
+    for (let i = 0; i < 96; i++) {
+      rows.push(<Bubble key={i}/>)
     }
 
     return (
-      <div class="container">{rows}</div>
+      <div className="container">{rows}</div>
     )
   }
 }

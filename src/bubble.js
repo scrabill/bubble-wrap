@@ -20,11 +20,11 @@ export default class Bubble extends React.Component {
 
     if (this.state.popped === false) {
       return (
-        <div class="bubble unpopped" onClick={(e) => this.handleClick(e)}></div>
+        <div className="bubble unpopped" onClick={(e) => this.handleClick(e)}></div>
       )
     } else {
       return (
-        <div class="bubble popped" onClick={(e) => this.handleClick(e)}></div>
+        <div className="bubble popped" onClick={(e) => this.handleClick(e)}></div>
       )
     }
 
