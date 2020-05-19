@@ -7,7 +7,7 @@ export default class Bubble extends React.Component {
   }
 
   handleClick = (e) => {
-    
+
     if (this.state.popped == false) {
       this.setState({
         popped: true,
