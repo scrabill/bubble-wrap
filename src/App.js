@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import Bubble from './bubble.js'
 import BubbleContainer from './bubbleContainer.js'
 
 function App() {
@@ -13,7 +11,7 @@ function App() {
       <BubbleContainer />
 
       <footer>
-        <p><a href="https://github.com/scrabill/bubble-wrap" target="_blank">Bubble Wrap</a> By Shannon Crabill as part of <a href="https://shannoncrabill.com/blog/7-days-7-websites/" target="_blank">#7Days7Websites</a>.</p>
+        <p><a href="https://github.com/scrabill/bubble-wrap" rel="noopener noreferrer" target="_blank">Bubble Wrap</a> By Shannon Crabill as part of <a href="https://shannoncrabill.com/blog/7-days-7-websites/" rel="noopener noreferrer" target="_blank">#7Days7Websites</a>.</p>
       </footer>
     </div>
   );
