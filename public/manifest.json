@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bubble Wrap",
+  "name": "Virtual bubble wrap to pop over and over again.",
   "icons": [
     {
       "src": "favicon.ico",
