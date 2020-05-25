@@ -22,6 +22,7 @@ Bubble wrap can also be downloaded and played locally
 
 ## Improvements
 
+- Continuous deployment with Netlify
 - Offset alternating rows of bubbles
 - Sounds effects?!
 - Variations of colors for each bubble
